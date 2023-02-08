@@ -68,7 +68,7 @@ class SpoonacularAPI: RecipeAPI {
 
             do {
                 let decoder = JSONDecoder()
-                let response = try decoder.decode(SpoonacularAPIPaginatedResponse<SpoonacularMinimalRecipe>.self, from: data)
+                let response = try decoder.decode(SpoonacularPaginatedResponse<SpoonacularMinimalRecipe>.self, from: data)
                 completion(.success(response.results.map { $0.toDomainObject() }))
             } catch {
                 completion(.failure(error))
