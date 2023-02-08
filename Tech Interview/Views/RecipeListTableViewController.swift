@@ -5,6 +5,7 @@ protocol RecipeListTableViewModel {
     var recipes: [Recipe] { get }
     var didChange: () -> Void { get set }
     var showError: (String) -> Void { get set }
+    func willShow(index: Int)
 }
 
 class RecipeListTableViewController: UITableViewController {
@@ -60,5 +61,9 @@ class RecipeListTableViewController: UITableViewController {
         content.text = viewModel.recipes[indexPath.row].title
         cell.contentConfiguration = content
         return cell
+    }
+
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        viewModel.willShow(index: indexPath.row)
     }
 }
