@@ -1,6 +1,6 @@
 import Foundation
 
-struct SpoonacularMinimalRecipe: Decodable {
+struct SpoonacularMinimalRecipe: Decodable, Equatable {
     let id: Int
     let title: String
     let image: URL?
