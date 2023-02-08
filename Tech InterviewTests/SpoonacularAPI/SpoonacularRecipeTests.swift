@@ -1,15 +1,15 @@
 @testable import Tech_Interview
 import XCTest
 
-class SpoonacularRecipeTests: XCTestCase {
+class SpoonacularFullRecipeTests: XCTestCase {
     func testObjectDecodesCorrectly() throws {
         let decoder = JSONDecoder()
 
-        let object = try decoder.decode(SpoonacularRecipe.self, from: spoonacularRecipeJSON.data(using: .utf8)!)
+        let object = try decoder.decode(SpoonacularFullRecipe.self, from: spoonacularFullRecipeJSON.data(using: .utf8)!)
 
         XCTAssertEqual(
             object,
-            SpoonacularRecipe(
+            SpoonacularFullRecipe(
                 id: 782_585,
                 title: "Cannellini Bean and Asparagus Salad with Mushrooms",
                 image: URL(string: "https://spoonacular.com/recipeImages/782585-556x370.jpg")!,

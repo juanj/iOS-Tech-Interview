@@ -1,6 +1,6 @@
 import Foundation
 
-struct SpoonacularRecipe: Decodable, Equatable {
+struct SpoonacularFullRecipe: Decodable, Equatable {
     let id: Int
     let title: String
     let image: URL?
@@ -8,7 +8,7 @@ struct SpoonacularRecipe: Decodable, Equatable {
     let instructions: String
 }
 
-extension SpoonacularRecipe {
+extension SpoonacularFullRecipe {
     func toDomainObject() -> Recipe {
         return Recipe(id: id, title: title, summary: summary, instructions: instructions, imageURL: image)
     }

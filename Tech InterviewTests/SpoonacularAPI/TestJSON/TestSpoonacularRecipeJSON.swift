@@ -1,4 +1,4 @@
-let spoonacularRecipeJSON = #"""
+let spoonacularFullRecipeJSON = #"""
  {
      "vegetarian": true,
      "vegan": true,

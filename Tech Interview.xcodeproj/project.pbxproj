@@ -15,7 +15,7 @@
 		0D0E8D232993CE6D00DE4CB6 /* Tech_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D222993CE6D00DE4CB6 /* Tech_InterviewUITests.swift */; };
 		0D0E8D252993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */; };
 		0D0E8D332993D91A00DE4CB6 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D322993D91A00DE4CB6 /* Recipe.swift */; };
-		0D0E8D372993DA3800DE4CB6 /* SpoonacularRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D362993DA3800DE4CB6 /* SpoonacularRecipe.swift */; };
+		0D0E8D372993DA3800DE4CB6 /* SpoonacularFullRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D362993DA3800DE4CB6 /* SpoonacularFullRecipe.swift */; };
 		0D0E8D3A2993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D392993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift */; };
 		0D0E8D3C2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D3B2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		0D0E8D222993CE6D00DE4CB6 /* Tech_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_InterviewUITests.swift; sourceTree = "<group>"; };
 		0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D0E8D322993D91A00DE4CB6 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		0D0E8D362993DA3800DE4CB6 /* SpoonacularRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularRecipe.swift; sourceTree = "<group>"; };
+		0D0E8D362993DA3800DE4CB6 /* SpoonacularFullRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularFullRecipe.swift; sourceTree = "<group>"; };
 		0D0E8D392993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularRecipeTests.swift; sourceTree = "<group>"; };
 		0D0E8D3B2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSpoonacularRecipeJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
