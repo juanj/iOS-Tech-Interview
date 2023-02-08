@@ -11,9 +11,6 @@
 		0D0E8D042993CE6C00DE4CB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D032993CE6C00DE4CB6 /* SceneDelegate.swift */; };
 		0D0E8D0B2993CE6D00DE4CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0E8D0A2993CE6D00DE4CB6 /* Assets.xcassets */; };
 		0D0E8D0E2993CE6D00DE4CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0E8D0C2993CE6D00DE4CB6 /* LaunchScreen.storyboard */; };
-		0D0E8D192993CE6D00DE4CB6 /* Tech_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D182993CE6D00DE4CB6 /* Tech_InterviewTests.swift */; };
-		0D0E8D232993CE6D00DE4CB6 /* Tech_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D222993CE6D00DE4CB6 /* Tech_InterviewUITests.swift */; };
-		0D0E8D252993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */; };
 		0D0E8D332993D91A00DE4CB6 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D322993D91A00DE4CB6 /* Recipe.swift */; };
 		0D0E8D372993DA3800DE4CB6 /* SpoonacularFullRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D362993DA3800DE4CB6 /* SpoonacularFullRecipe.swift */; };
 		0D0E8D3A2993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D392993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift */; };
@@ -43,13 +40,6 @@
 			remoteGlobalIDString = 0D0E8CFD2993CE6C00DE4CB6;
 			remoteInfo = "Tech Interview";
 		};
-		0D0E8D1F2993CE6D00DE4CB6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D0E8CF62993CE6C00DE4CB6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D0E8CFD2993CE6C00DE4CB6;
-			remoteInfo = "Tech Interview";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -60,10 +50,6 @@
 		0D0E8D0D2993CE6D00DE4CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D0E8D0F2993CE6D00DE4CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D0E8D142993CE6D00DE4CB6 /* Tech InterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tech InterviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D0E8D182993CE6D00DE4CB6 /* Tech_InterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_InterviewTests.swift; sourceTree = "<group>"; };
-		0D0E8D1E2993CE6D00DE4CB6 /* Tech InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tech InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D0E8D222993CE6D00DE4CB6 /* Tech_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_InterviewUITests.swift; sourceTree = "<group>"; };
-		0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D0E8D322993D91A00DE4CB6 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		0D0E8D362993DA3800DE4CB6 /* SpoonacularFullRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularFullRecipe.swift; sourceTree = "<group>"; };
 		0D0E8D392993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularRecipeTests.swift; sourceTree = "<group>"; };
@@ -100,13 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D0E8D1B2993CE6D00DE4CB6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,7 +94,6 @@
 			children = (
 				0D0E8D002993CE6C00DE4CB6 /* Tech Interview */,
 				0D0E8D172993CE6D00DE4CB6 /* Tech InterviewTests */,
-				0D0E8D212993CE6D00DE4CB6 /* Tech InterviewUITests */,
 				0D0E8CFF2993CE6C00DE4CB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,7 +103,6 @@
 			children = (
 				0D0E8CFE2993CE6C00DE4CB6 /* Tech Interview.app */,
 				0D0E8D142993CE6D00DE4CB6 /* Tech InterviewTests.xctest */,
-				0D0E8D1E2993CE6D00DE4CB6 /* Tech InterviewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,19 +124,9 @@
 				0D0E8D552993F3BA00DE4CB6 /* Mocks */,
 				0D0E8D542993F3A500DE4CB6 /* Stubs */,
 				0D0E8D382993DB0100DE4CB6 /* SpoonacularAPI */,
-				0D0E8D182993CE6D00DE4CB6 /* Tech_InterviewTests.swift */,
 				0D0E8D522993F28700DE4CB6 /* RecipeRepositoryTest.swift */,
 			);
 			path = "Tech InterviewTests";
-			sourceTree = "<group>";
-		};
-		0D0E8D212993CE6D00DE4CB6 /* Tech InterviewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0D0E8D222993CE6D00DE4CB6 /* Tech_InterviewUITests.swift */,
-				0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */,
-			);
-			path = "Tech InterviewUITests";
 			sourceTree = "<group>";
 		};
 		0D0E8D312993D89B00DE4CB6 /* Model */ = {
@@ -282,24 +249,6 @@
 			productReference = 0D0E8D142993CE6D00DE4CB6 /* Tech InterviewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0D0E8D1D2993CE6D00DE4CB6 /* Tech InterviewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D0E8D2E2993CE6D00DE4CB6 /* Build configuration list for PBXNativeTarget "Tech InterviewUITests" */;
-			buildPhases = (
-				0D0E8D1A2993CE6D00DE4CB6 /* Sources */,
-				0D0E8D1B2993CE6D00DE4CB6 /* Frameworks */,
-				0D0E8D1C2993CE6D00DE4CB6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D0E8D202993CE6D00DE4CB6 /* PBXTargetDependency */,
-			);
-			name = "Tech InterviewUITests";
-			productName = "Tech InterviewUITests";
-			productReference = 0D0E8D1E2993CE6D00DE4CB6 /* Tech InterviewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -314,10 +263,6 @@
 						CreatedOnToolsVersion = 14.0;
 					};
 					0D0E8D132993CE6D00DE4CB6 = {
-						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 0D0E8CFD2993CE6C00DE4CB6;
-					};
-					0D0E8D1D2993CE6D00DE4CB6 = {
 						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 0D0E8CFD2993CE6C00DE4CB6;
 					};
@@ -341,7 +286,6 @@
 			targets = (
 				0D0E8CFD2993CE6C00DE4CB6 /* Tech Interview */,
 				0D0E8D132993CE6D00DE4CB6 /* Tech InterviewTests */,
-				0D0E8D1D2993CE6D00DE4CB6 /* Tech InterviewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -357,13 +301,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0D0E8D122993CE6D00DE4CB6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D0E8D1C2993CE6D00DE4CB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,20 +337,10 @@
 				0D0E8D5B2993F5DD00DE4CB6 /* RecipeCacheMock.swift in Sources */,
 				0D0E8D592993F45A00DE4CB6 /* RecipeAPIMock.swift in Sources */,
 				0D0E8D572993F3D900DE4CB6 /* RecipeCacheStub.swift in Sources */,
-				0D0E8D192993CE6D00DE4CB6 /* Tech_InterviewTests.swift in Sources */,
 				0D0E8D5D2993F6E900DE4CB6 /* RecipeAPIStub.swift in Sources */,
 				0D0E8D3A2993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift in Sources */,
 				0D0E8D4D2993E86100DE4CB6 /* SpoonacularPaginatedResponseTests.swift in Sources */,
 				0D0E8D3C2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D0E8D1A2993CE6D00DE4CB6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D0E8D252993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift in Sources */,
-				0D0E8D232993CE6D00DE4CB6 /* Tech_InterviewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +351,6 @@
 			isa = PBXTargetDependency;
 			target = 0D0E8CFD2993CE6C00DE4CB6 /* Tech Interview */;
 			targetProxy = 0D0E8D152993CE6D00DE4CB6 /* PBXContainerItemProxy */;
-		};
-		0D0E8D202993CE6D00DE4CB6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D0E8CFD2993CE6C00DE4CB6 /* Tech Interview */;
-			targetProxy = 0D0E8D1F2993CE6D00DE4CB6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -654,42 +576,6 @@
 			};
 			name = Release;
 		};
-		0D0E8D2F2993CE6D00DE4CB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "project.Tech-InterviewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Tech Interview";
-			};
-			name = Debug;
-		};
-		0D0E8D302993CE6D00DE4CB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "project.Tech-InterviewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Tech Interview";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -716,15 +602,6 @@
 			buildConfigurations = (
 				0D0E8D2C2993CE6D00DE4CB6 /* Debug */,
 				0D0E8D2D2993CE6D00DE4CB6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D0E8D2E2993CE6D00DE4CB6 /* Build configuration list for PBXNativeTarget "Tech InterviewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D0E8D2F2993CE6D00DE4CB6 /* Debug */,
-				0D0E8D302993CE6D00DE4CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
