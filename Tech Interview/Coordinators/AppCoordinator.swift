@@ -12,8 +12,19 @@ class AppCoordinator: Coordinator {
     }
 
     func start() {
-        window.rootViewController = tabBarController
+        showSplash()
+        preloadApp()
+    }
 
+    private func showSplash() {
+        window.rootViewController = SplashViewController()
+        window.makeKeyAndVisible()
+        Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { _ in
+            self.showApp()
+        }
+    }
+
+    private func preloadApp() {
         let rootListNavigation = UINavigationController()
         let rootSearchNavigation = UINavigationController()
         tabBarController.setViewControllers(
@@ -24,7 +35,11 @@ class AppCoordinator: Coordinator {
         configureAndStartRecipeListCoordinator(navigation: rootListNavigation)
         configureAndStartRecipeSearchCoordinator(navigation: rootSearchNavigation)
 
-        window.makeKeyAndVisible()
+        _ = tabBarController.view
+    }
+
+    private func showApp() {
+        window.rootViewController = tabBarController
     }
 
     private func configureAndStartRecipeListCoordinator(navigation: UINavigationController) {

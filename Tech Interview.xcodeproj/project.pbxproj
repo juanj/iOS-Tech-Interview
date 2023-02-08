@@ -43,6 +43,7 @@
 		0D0E8D7A29943CA500DE4CB6 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D7929943CA500DE4CB6 /* RecipeDetailViewController.swift */; };
 		0D0E8D7D29943D0F00DE4CB6 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D7C29943D0F00DE4CB6 /* Dependencies.swift */; };
 		0D0E8D7F299440DD00DE4CB6 /* RepositoryRecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D7E299440DD00DE4CB6 /* RepositoryRecipeDetailViewModel.swift */; };
+		0D0E8D8329944C6200DE4CB6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D8229944C6200DE4CB6 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		0D0E8D7929943CA500DE4CB6 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		0D0E8D7C29943D0F00DE4CB6 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		0D0E8D7E299440DD00DE4CB6 /* RepositoryRecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryRecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		0D0E8D8229944C6200DE4CB6 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				0D0E8D6A2994149700DE4CB6 /* RecipeListTableViewController.swift */,
 				0D0E8D6C2994155700DE4CB6 /* SearchRecipeTableViewController.swift */,
 				0D0E8D7929943CA500DE4CB6 /* RecipeDetailViewController.swift */,
+				0D0E8D8229944C6200DE4CB6 /* SplashViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				0D0E8D042993CE6C00DE4CB6 /* SceneDelegate.swift in Sources */,
 				0D0E8D7329942C6300DE4CB6 /* RecipeTableViewCell.swift in Sources */,
 				0D0E8D66299412CD00DE4CB6 /* RecipeListCoordinator.swift in Sources */,
+				0D0E8D8329944C6200DE4CB6 /* SplashViewController.swift in Sources */,
 				0D0E8D5F2993F90D00DE4CB6 /* InMemoryRecipeCache.swift in Sources */,
 				0D0E8D622993FB0D00DE4CB6 /* Coordinator.swift in Sources */,
 				0D0E8D7A29943CA500DE4CB6 /* RecipeDetailViewController.swift in Sources */,
