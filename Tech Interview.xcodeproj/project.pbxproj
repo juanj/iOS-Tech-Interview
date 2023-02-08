@@ -32,6 +32,8 @@
 		0D0E8D5F2993F90D00DE4CB6 /* InMemoryRecipeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D5E2993F90D00DE4CB6 /* InMemoryRecipeCache.swift */; };
 		0D0E8D622993FB0D00DE4CB6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D612993FB0D00DE4CB6 /* Coordinator.swift */; };
 		0D0E8D642993FB4E00DE4CB6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D632993FB4E00DE4CB6 /* AppCoordinator.swift */; };
+		0D0E8D66299412CD00DE4CB6 /* RecipeListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D65299412CD00DE4CB6 /* RecipeListCoordinator.swift */; };
+		0D0E8D682994131500DE4CB6 /* RecipeSearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D672994131500DE4CB6 /* RecipeSearchCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		0D0E8D5E2993F90D00DE4CB6 /* InMemoryRecipeCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryRecipeCache.swift; sourceTree = "<group>"; };
 		0D0E8D612993FB0D00DE4CB6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0D0E8D632993FB4E00DE4CB6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0D0E8D65299412CD00DE4CB6 /* RecipeListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListCoordinator.swift; sourceTree = "<group>"; };
+		0D0E8D672994131500DE4CB6 /* RecipeSearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,8 @@
 			children = (
 				0D0E8D612993FB0D00DE4CB6 /* Coordinator.swift */,
 				0D0E8D632993FB4E00DE4CB6 /* AppCoordinator.swift */,
+				0D0E8D65299412CD00DE4CB6 /* RecipeListCoordinator.swift */,
+				0D0E8D672994131500DE4CB6 /* RecipeSearchCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -335,7 +341,9 @@
 				0D0E8D4F2993EAE000DE4CB6 /* RecipeCache.swift in Sources */,
 				0D0E8D372993DA3800DE4CB6 /* SpoonacularFullRecipe.swift in Sources */,
 				0D0E8D022993CE6C00DE4CB6 /* AppDelegate.swift in Sources */,
+				0D0E8D682994131500DE4CB6 /* RecipeSearchCoordinator.swift in Sources */,
 				0D0E8D042993CE6C00DE4CB6 /* SceneDelegate.swift in Sources */,
+				0D0E8D66299412CD00DE4CB6 /* RecipeListCoordinator.swift in Sources */,
 				0D0E8D5F2993F90D00DE4CB6 /* InMemoryRecipeCache.swift in Sources */,
 				0D0E8D622993FB0D00DE4CB6 /* Coordinator.swift in Sources */,
 				0D0E8D462993E39A00DE4CB6 /* SpoonacularPaginatedResponse.swift in Sources */,

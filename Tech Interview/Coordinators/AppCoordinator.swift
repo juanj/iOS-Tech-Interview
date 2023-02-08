@@ -26,7 +26,13 @@ class AppCoordinator: Coordinator {
         window.makeKeyAndVisible()
     }
 
-    private func configureAndStartRecipeListCoordinator(navigation _: UINavigationController) {}
+    private func configureAndStartRecipeListCoordinator(navigation: UINavigationController) {
+        let coordinator = RecipeListCoordinator(navigation: navigation)
+        coordinator.start()
+    }
 
-    private func configureAndStartRecipeSearchCoordinator(navigation _: UINavigationController) {}
+    private func configureAndStartRecipeSearchCoordinator(navigation: UINavigationController) {
+        let coordinator = RecipeSearchCoordinator(navigation: navigation)
+        coordinator.start()
+    }
 }
