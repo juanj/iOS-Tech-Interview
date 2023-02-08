@@ -4,6 +4,7 @@ import UIKit
 class AppCoordinator: Coordinator {
     var childCoordinators = [Coordinator]()
     private var tabBarController = UITabBarController()
+    private let dependencies = Dependencies()
 
     private var window: UIWindow
     init(window: UIWindow) {
@@ -27,12 +28,12 @@ class AppCoordinator: Coordinator {
     }
 
     private func configureAndStartRecipeListCoordinator(navigation: UINavigationController) {
-        let coordinator = RecipeListCoordinator(navigation: navigation)
+        let coordinator = RecipeListCoordinator(navigation: navigation, dependencies: dependencies)
         coordinator.start()
     }
 
     private func configureAndStartRecipeSearchCoordinator(navigation: UINavigationController) {
-        let coordinator = RecipeSearchCoordinator(navigation: navigation)
+        let coordinator = RecipeSearchCoordinator(navigation: navigation, dependencies: dependencies)
         coordinator.start()
     }
 }
