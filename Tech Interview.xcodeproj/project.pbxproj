@@ -37,6 +37,8 @@
 		0D0E8D6B2994149700DE4CB6 /* RecipeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D6A2994149700DE4CB6 /* RecipeListTableViewController.swift */; };
 		0D0E8D6D2994155700DE4CB6 /* SearchRecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D6C2994155700DE4CB6 /* SearchRecipeTableViewController.swift */; };
 		0D0E8D702994169500DE4CB6 /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D6F2994169500DE4CB6 /* RecipeListViewModel.swift */; };
+		0D0E8D7329942C6300DE4CB6 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D7229942C6300DE4CB6 /* RecipeTableViewCell.swift */; };
+		0D0E8D7629942FE600DE4CB6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0D0E8D7529942FE600DE4CB6 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,7 @@
 		0D0E8D6A2994149700DE4CB6 /* RecipeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListTableViewController.swift; sourceTree = "<group>"; };
 		0D0E8D6C2994155700DE4CB6 /* SearchRecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeTableViewController.swift; sourceTree = "<group>"; };
 		0D0E8D6F2994169500DE4CB6 /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
+		0D0E8D7229942C6300DE4CB6 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0E8D7629942FE600DE4CB6 /* Kingfisher in Frameworks */,
 				0D0E8D442993DF8500DE4CB6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +243,7 @@
 		0D0E8D692994147800DE4CB6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D0E8D7129942C1C00DE4CB6 /* Cells */,
 				0D0E8D6A2994149700DE4CB6 /* RecipeListTableViewController.swift */,
 				0D0E8D6C2994155700DE4CB6 /* SearchRecipeTableViewController.swift */,
 			);
@@ -251,6 +256,14 @@
 				0D0E8D6F2994169500DE4CB6 /* RecipeListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0D0E8D7129942C1C00DE4CB6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0D0E8D7229942C6300DE4CB6 /* RecipeTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			name = "Tech Interview";
 			packageProductDependencies = (
 				0D0E8D432993DF8500DE4CB6 /* Alamofire */,
+				0D0E8D7529942FE600DE4CB6 /* Kingfisher */,
 			);
 			productName = "Tech Interview";
 			productReference = 0D0E8CFE2993CE6C00DE4CB6 /* Tech Interview.app */;
@@ -324,6 +338,7 @@
 			mainGroup = 0D0E8CF52993CE6C00DE4CB6;
 			packageReferences = (
 				0D0E8D422993DF8500DE4CB6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0D0E8D7429942FE600DE4CB6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 0D0E8CFF2993CE6C00DE4CB6 /* Products */;
 			projectDirPath = "";
@@ -371,6 +386,7 @@
 				0D0E8D022993CE6C00DE4CB6 /* AppDelegate.swift in Sources */,
 				0D0E8D682994131500DE4CB6 /* RecipeSearchCoordinator.swift in Sources */,
 				0D0E8D042993CE6C00DE4CB6 /* SceneDelegate.swift in Sources */,
+				0D0E8D7329942C6300DE4CB6 /* RecipeTableViewCell.swift in Sources */,
 				0D0E8D66299412CD00DE4CB6 /* RecipeListCoordinator.swift in Sources */,
 				0D0E8D5F2993F90D00DE4CB6 /* InMemoryRecipeCache.swift in Sources */,
 				0D0E8D622993FB0D00DE4CB6 /* Coordinator.swift in Sources */,
@@ -669,6 +685,14 @@
 				minimumVersion = 5.6.1;
 			};
 		};
+		0D0E8D7429942FE600DE4CB6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -676,6 +700,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0D0E8D422993DF8500DE4CB6 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		0D0E8D7529942FE600DE4CB6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D0E8D7429942FE600DE4CB6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

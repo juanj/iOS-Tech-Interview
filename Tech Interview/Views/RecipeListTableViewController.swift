@@ -28,7 +28,7 @@ class RecipeListTableViewController: UITableViewController {
     }
 
     private func configureTableView() {
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: Constants.cellIdentifier)
+        tableView.register(RecipeTableViewCell.self, forCellReuseIdentifier: Constants.cellIdentifier)
     }
 
     private func bindViewModel() {
@@ -56,14 +56,22 @@ class RecipeListTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellIdentifier, for: indexPath)
-        var content = cell.defaultContentConfiguration()
-        content.text = viewModel.recipes[indexPath.row].title
-        cell.contentConfiguration = content
+        guard let cell = tableView.dequeueReusableCell(
+            withIdentifier: Constants.cellIdentifier,
+            for: indexPath
+        ) as? RecipeTableViewCell
+        else { fatalError("Failed to dequeue cell of type RecipeTableViewCell") }
+
+        cell.configure(with: viewModel.recipes[indexPath.row])
+
         return cell
     }
 
-    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    override func tableView(_: UITableView, willDisplay _: UITableViewCell, forRowAt indexPath: IndexPath) {
         viewModel.willShow(index: indexPath.row)
+    }
+
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 250
     }
 }
