@@ -32,6 +32,7 @@
 		0D0E8D592993F45A00DE4CB6 /* RecipeAPIMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D582993F45A00DE4CB6 /* RecipeAPIMock.swift */; };
 		0D0E8D5B2993F5DD00DE4CB6 /* RecipeCacheMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D5A2993F5DD00DE4CB6 /* RecipeCacheMock.swift */; };
 		0D0E8D5D2993F6E900DE4CB6 /* RecipeAPIStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D5C2993F6E900DE4CB6 /* RecipeAPIStub.swift */; };
+		0D0E8D5F2993F90D00DE4CB6 /* InMemoryRecipeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D5E2993F90D00DE4CB6 /* InMemoryRecipeCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		0D0E8D582993F45A00DE4CB6 /* RecipeAPIMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAPIMock.swift; sourceTree = "<group>"; };
 		0D0E8D5A2993F5DD00DE4CB6 /* RecipeCacheMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCacheMock.swift; sourceTree = "<group>"; };
 		0D0E8D5C2993F6E900DE4CB6 /* RecipeAPIStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAPIStub.swift; sourceTree = "<group>"; };
+		0D0E8D5E2993F90D00DE4CB6 /* InMemoryRecipeCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryRecipeCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				0D0E8D4E2993EAE000DE4CB6 /* RecipeCache.swift */,
 				0D0E8D352993DA1A00DE4CB6 /* SpoonacularAPI */,
 				0D0E8D502993EBD400DE4CB6 /* RecipeRepository.swift */,
+				0D0E8D5E2993F90D00DE4CB6 /* InMemoryRecipeCache.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				0D0E8D372993DA3800DE4CB6 /* SpoonacularFullRecipe.swift in Sources */,
 				0D0E8D022993CE6C00DE4CB6 /* AppDelegate.swift in Sources */,
 				0D0E8D042993CE6C00DE4CB6 /* SceneDelegate.swift in Sources */,
+				0D0E8D5F2993F90D00DE4CB6 /* InMemoryRecipeCache.swift in Sources */,
 				0D0E8D462993E39A00DE4CB6 /* SpoonacularPaginatedResponse.swift in Sources */,
 				0D0E8D482993E59E00DE4CB6 /* SpoonacularMinimalRecipe.swift in Sources */,
 				0D0E8D512993EBD400DE4CB6 /* RecipeRepository.swift in Sources */,
