@@ -115,11 +115,7 @@
 			children = (
 				0D0E8D342993DA0800DE4CB6 /* Repositories */,
 				0D0E8D312993D89B00DE4CB6 /* Model */,
-				0D0E8D012993CE6C00DE4CB6 /* AppDelegate.swift */,
-				0D0E8D032993CE6C00DE4CB6 /* SceneDelegate.swift */,
-				0D0E8D0A2993CE6D00DE4CB6 /* Assets.xcassets */,
-				0D0E8D0C2993CE6D00DE4CB6 /* LaunchScreen.storyboard */,
-				0D0E8D0F2993CE6D00DE4CB6 /* Info.plist */,
+				0D0E8D492993E7C500DE4CB6 /* Supporting Files */,
 			);
 			path = "Tech Interview";
 			sourceTree = "<group>";
@@ -185,6 +181,18 @@
 				0D0E8D3B2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift */,
 			);
 			path = TestJSON;
+			sourceTree = "<group>";
+		};
+		0D0E8D492993E7C500DE4CB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D0E8D012993CE6C00DE4CB6 /* AppDelegate.swift */,
+				0D0E8D032993CE6C00DE4CB6 /* SceneDelegate.swift */,
+				0D0E8D0A2993CE6D00DE4CB6 /* Assets.xcassets */,
+				0D0E8D0C2993CE6D00DE4CB6 /* LaunchScreen.storyboard */,
+				0D0E8D0F2993CE6D00DE4CB6 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
