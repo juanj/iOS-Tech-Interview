@@ -14,6 +14,10 @@
 		0D0E8D192993CE6D00DE4CB6 /* Tech_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D182993CE6D00DE4CB6 /* Tech_InterviewTests.swift */; };
 		0D0E8D232993CE6D00DE4CB6 /* Tech_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D222993CE6D00DE4CB6 /* Tech_InterviewUITests.swift */; };
 		0D0E8D252993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */; };
+		0D0E8D332993D91A00DE4CB6 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D322993D91A00DE4CB6 /* Recipe.swift */; };
+		0D0E8D372993DA3800DE4CB6 /* SpoonacularRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D362993DA3800DE4CB6 /* SpoonacularRecipe.swift */; };
+		0D0E8D3A2993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D392993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift */; };
+		0D0E8D3C2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D3B2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		0D0E8D1E2993CE6D00DE4CB6 /* Tech InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tech InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0E8D222993CE6D00DE4CB6 /* Tech_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_InterviewUITests.swift; sourceTree = "<group>"; };
 		0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D0E8D322993D91A00DE4CB6 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		0D0E8D362993DA3800DE4CB6 /* SpoonacularRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularRecipe.swift; sourceTree = "<group>"; };
+		0D0E8D392993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularRecipeTests.swift; sourceTree = "<group>"; };
+		0D0E8D3B2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSpoonacularRecipeJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,8 @@
 		0D0E8D002993CE6C00DE4CB6 /* Tech Interview */ = {
 			isa = PBXGroup;
 			children = (
+				0D0E8D342993DA0800DE4CB6 /* Repositories */,
+				0D0E8D312993D89B00DE4CB6 /* Model */,
 				0D0E8D012993CE6C00DE4CB6 /* AppDelegate.swift */,
 				0D0E8D032993CE6C00DE4CB6 /* SceneDelegate.swift */,
 				0D0E8D0A2993CE6D00DE4CB6 /* Assets.xcassets */,
@@ -107,6 +117,7 @@
 		0D0E8D172993CE6D00DE4CB6 /* Tech InterviewTests */ = {
 			isa = PBXGroup;
 			children = (
+				0D0E8D382993DB0100DE4CB6 /* SpoonacularAPI */,
 				0D0E8D182993CE6D00DE4CB6 /* Tech_InterviewTests.swift */,
 			);
 			path = "Tech InterviewTests";
@@ -119,6 +130,47 @@
 				0D0E8D242993CE6D00DE4CB6 /* Tech_InterviewUITestsLaunchTests.swift */,
 			);
 			path = "Tech InterviewUITests";
+			sourceTree = "<group>";
+		};
+		0D0E8D312993D89B00DE4CB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D0E8D322993D91A00DE4CB6 /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D0E8D342993DA0800DE4CB6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0D0E8D352993DA1A00DE4CB6 /* SpoonacularAPI */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0D0E8D352993DA1A00DE4CB6 /* SpoonacularAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0D0E8D362993DA3800DE4CB6 /* SpoonacularRecipe.swift */,
+			);
+			path = SpoonacularAPI;
+			sourceTree = "<group>";
+		};
+		0D0E8D382993DB0100DE4CB6 /* SpoonacularAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0D0E8D3D2993DBB500DE4CB6 /* TestJSON */,
+				0D0E8D392993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift */,
+			);
+			path = SpoonacularAPI;
+			sourceTree = "<group>";
+		};
+		0D0E8D3D2993DBB500DE4CB6 /* TestJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0D0E8D3B2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift */,
+			);
+			path = TestJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0E8D332993D91A00DE4CB6 /* Recipe.swift in Sources */,
+				0D0E8D372993DA3800DE4CB6 /* SpoonacularRecipe.swift in Sources */,
 				0D0E8D022993CE6C00DE4CB6 /* AppDelegate.swift in Sources */,
 				0D0E8D042993CE6C00DE4CB6 /* SceneDelegate.swift in Sources */,
 			);
@@ -261,6 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D0E8D192993CE6D00DE4CB6 /* Tech_InterviewTests.swift in Sources */,
+				0D0E8D3A2993DB1A00DE4CB6 /* SpoonacularRecipeTests.swift in Sources */,
+				0D0E8D3C2993DB9400DE4CB6 /* TestSpoonacularRecipeJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
