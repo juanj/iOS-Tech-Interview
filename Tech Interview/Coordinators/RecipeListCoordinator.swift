@@ -16,10 +16,21 @@ class RecipeListCoordinator: Coordinator {
     }
 
     func start() {
-        let viewController =
-            RecipeListTableViewController(
-                viewModel: RepositoryRecipeListTableViewModel(repository: dependencies.recipeRepository)
+        let viewController = RecipeListTableViewController(
+            viewModel: RepositoryRecipeListTableViewModel(repository: dependencies.recipeRepository)
+        )
+
+        viewController.didSelectRecipe = { [weak self] recipe in
+            guard let self else { return }
+            self.navigation.pushViewController(
+                RecipeDetailViewController(viewModel: RepositoryRecipeDetailViewModel(
+                    recipe: recipe,
+                    repository: self.dependencies.recipeRepository
+                )),
+                animated: true
             )
+        }
+
         navigation.setViewControllers([viewController], animated: false)
     }
 }

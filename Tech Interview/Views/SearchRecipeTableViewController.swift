@@ -14,6 +14,8 @@ class SearchRecipeTableViewController: UIViewController {
         static let cellIdentifier = "RecipeCell"
     }
 
+    var didSelectRecipe: (Recipe) -> Void = { _ in }
+
     private let tableView = UITableView()
     private let searchBar = UISearchBar()
     private var timer: Timer?
@@ -116,6 +118,11 @@ extension SearchRecipeTableViewController: UITableViewDelegate, UITableViewDataS
 
     func tableView(_: UITableView, heightForRowAt _: IndexPath) -> CGFloat {
         return 250
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        didSelectRecipe(viewModel.results[indexPath.row])
     }
 }
 

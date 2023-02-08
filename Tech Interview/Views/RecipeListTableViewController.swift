@@ -13,6 +13,8 @@ class RecipeListTableViewController: UITableViewController {
         static let cellIdentifier = "RecipeCell"
     }
 
+    var didSelectRecipe: (Recipe) -> Void = { _ in }
+
     private var viewModel: RecipeListTableViewModel
     init(viewModel: RecipeListTableViewModel) {
         self.viewModel = viewModel
@@ -73,5 +75,10 @@ class RecipeListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 250
+    }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        didSelectRecipe(viewModel.recipes[indexPath.row])
     }
 }
