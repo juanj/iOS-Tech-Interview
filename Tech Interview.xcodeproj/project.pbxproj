@@ -39,6 +39,7 @@
 		0D0E8D702994169500DE4CB6 /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D6F2994169500DE4CB6 /* RecipeListViewModel.swift */; };
 		0D0E8D7329942C6300DE4CB6 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D7229942C6300DE4CB6 /* RecipeTableViewCell.swift */; };
 		0D0E8D7629942FE600DE4CB6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0D0E8D7529942FE600DE4CB6 /* Kingfisher */; };
+		0D0E8D782994377200DE4CB6 /* RepositorySearchRecipeTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E8D772994377200DE4CB6 /* RepositorySearchRecipeTableViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		0D0E8D6C2994155700DE4CB6 /* SearchRecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeTableViewController.swift; sourceTree = "<group>"; };
 		0D0E8D6F2994169500DE4CB6 /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
 		0D0E8D7229942C6300DE4CB6 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		0D0E8D772994377200DE4CB6 /* RepositorySearchRecipeTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorySearchRecipeTableViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				0D0E8D6F2994169500DE4CB6 /* RecipeListViewModel.swift */,
+				0D0E8D772994377200DE4CB6 /* RepositorySearchRecipeTableViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				0D0E8D462993E39A00DE4CB6 /* SpoonacularPaginatedResponse.swift in Sources */,
 				0D0E8D482993E59E00DE4CB6 /* SpoonacularMinimalRecipe.swift in Sources */,
 				0D0E8D512993EBD400DE4CB6 /* RecipeRepository.swift in Sources */,
+				0D0E8D782994377200DE4CB6 /* RepositorySearchRecipeTableViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
