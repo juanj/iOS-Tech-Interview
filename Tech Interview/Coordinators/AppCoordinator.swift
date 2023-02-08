@@ -29,11 +29,13 @@ class AppCoordinator: Coordinator {
 
     private func configureAndStartRecipeListCoordinator(navigation: UINavigationController) {
         let coordinator = RecipeListCoordinator(navigation: navigation, dependencies: dependencies)
+        childCoordinators.append(coordinator)
         coordinator.start()
     }
 
     private func configureAndStartRecipeSearchCoordinator(navigation: UINavigationController) {
         let coordinator = RecipeSearchCoordinator(navigation: navigation, dependencies: dependencies)
+        childCoordinators.append(coordinator)
         coordinator.start()
     }
 }
